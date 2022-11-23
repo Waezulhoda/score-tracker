@@ -1,6 +1,11 @@
 homeScore=0
 home_el=document.getElementById("home")
 
+b=document.getElementsByClassName("home-score")
+console.log(b)
+function homefunc(){
+    
+}
 function home1func(){
     homeScore+=1
     home_el.textContent=homeScore
